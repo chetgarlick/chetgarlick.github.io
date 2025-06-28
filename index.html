@@ -1,36 +1,82 @@
-<!DOCTYPE HTML>
-<!--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chet's Personal Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f7f7f7;
+      color: #333;
+    }
 
-    -->
+    header {
+      background-color: #4a90e2;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
 
-<html>
+    header img {
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border: 4px solid white;
+      margin-bottom: 20px;
+    }
 
-    <head>
-        <title> Chet Garlick's Personal Page </title>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-        <link rel="stylesheet" href="assets/css/main.css" />
-    </head>
+    main {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
 
-    <body class='body'>
+    section {
+      margin-bottom: 40px;
+    }
 
-        <header id="header">
-            <div class="inner">
-                <a href="#" class="image avatar"><img src="images/chet_pic.jpg" alt="Headshot image of me" width="300px" height="auto"/></a>
-                <h2><strong>I am Chet Garlick </strong></h2>
-                <h3><a href="https://github.com/chetgarlick/"> My GitHub Profile</a></h3>
-             </div>
-        </header>
+    h1, h2 {
+      margin-bottom: 10px;
+    }
 
-        <div class="main">
-            
-            This page WIP
-            
+    p {
+      line-height: 1.6;
+    }
 
-        </div>
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #eee;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="images/chet_pic.jpg" alt="Picture of Chet">
+    <h1>Chet</h1>
+    <p>Welcome to my personal page!</p>
+  </header>
 
-        <script src="assets/js/main.js"></script>
-    </body>
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hi! I'm Chet, and this is a simple static page to introduce myself. I enjoy software development, data science, the great outdoors of the Mountain West, exploring new music.</p>
+    </section>
 
+    <section id="projects">
+      <h2>Projects</h2>
+      <p>WIP: I want to discuss my personal projects and interests here.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>You can reach me at <a href="mailto:chetdean@gmail.com">chetdean@gmail.com</a>.</p>
+    </section>
+  </main>
+</body>
 </html>
-
